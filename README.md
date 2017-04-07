@@ -19,9 +19,9 @@ npm run build --report
 ```
 
 
-#使用vue-lazyload 实现图片懒加载
-#使用淘宝的flexible弹性布局方案
-#使用potcss-px2rem 此时1rem = **/75 (适用于ui图为750的情况)
+# 使用vue-lazyload 实现图片懒加载
+# 使用淘宝的flexible弹性布局方案
+# 使用potcss-px2rem 此时1rem = **/75 (适用于ui图为750的情况)
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 改变
