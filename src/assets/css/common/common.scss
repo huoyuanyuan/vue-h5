@@ -1,0 +1,83 @@
+@charset "UTF-8";
+//样式重置
+@import "./reset/reset";
+//mixins工具方法
+@import "./mixins/mixins";
+//全局配置参数
+@import "./config/config";
+//全局字体
+@import "../../fonts/ibase/font";
+@import "../../fonts/ihdl/font";
+//初始化部分常用样式
+//重置字体样式
+body {
+    color: $font-primary-color;
+    font-size: 12px;
+    font-family: $font-family-base;
+    /*px*/
+    background-color: #ededed;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    &:hover,
+    &:active {
+        color: $link-hover-color;
+        text-decoration: none;
+    }
+}
+
+img{
+    transition:opacity 0.2s ease-in-out;
+}
+img[lazy=loading]{
+    opacity: 0.8;
+    background:url('#{$gImgBase}error-img.gif') 50% 50% no-repeat;
+}
+img[lazy=error]{
+
+}
+img[lazy=loaded]{
+    opacity:1;
+    background:none;
+    width:auto;
+    height:auto;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.txt-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.img-error {
+    background: url('#{$gImgBase}error-img.gif');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.hide {
+    display: none;
+}

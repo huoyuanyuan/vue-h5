@@ -1,0 +1,76 @@
+
+@font-face {font-family: "ibase";
+  src: url('//at.alicdn.com/t/font_vmjuarjz779wl8fr.eot?t=1490860619931'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_vmjuarjz779wl8fr.eot?t=1490860619931#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_vmjuarjz779wl8fr.woff?t=1490860619931') format('woff'), /* chrome, firefox */
+  url('//at.alicdn.com/t/font_vmjuarjz779wl8fr.ttf?t=1490860619931') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_vmjuarjz779wl8fr.svg?t=1490860619931#ibase') format('svg'); /* iOS 4.1- */
+}
+
+.ibase {
+  font-family:"ibase" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ibase-qzone:before { content: "\e6f4"; }
+
+.ibase-weixin:before { content: "\e603"; }
+
+.ibase-sqq:before { content: "\e6f5"; }
+
+.ibase-loading:before { content: "\e647"; }
+
+.ibase-cry:before { content: "\e626"; }
+
+.ibase-prevs:before { content: "\e651"; }
+
+.ibase-tqf:before { content: "\e6f6"; }
+
+.ibase-next:before { content: "\e600"; }
+
+.ibase-404:before { content: "\e668"; }
+
+.ibase-checked:before { content: "\e616"; }
+
+.ibase-hot:before { content: "\e770"; }
+
+.ibase-checkbox:before { content: "\e676"; }
+
+.ibase-group:before { content: "\e6f7"; }
+
+.ibase-empty:before { content: "\e605"; }
+
+.ibase-back:before { content: "\e666"; }
+
+.ibase-more-menu:before { content: "\e667"; }
+
+.ibase-add:before { content: "\e675"; }
+
+.ibase-praise:before { content: "\e689"; }
+
+.ibase-move-up:before { content: "\e68e"; }
+
+.ibase-move-down:before { content: "\e68f"; }
+
+.ibase-edit:before { content: "\e692"; }
+
+.ibase-del:before { content: "\e699"; }
+
+.ibase-dropup:before { content: "\e69b"; }
+
+.ibase-search:before { content: "\e6a3"; }
+
+.ibase-dropdown:before { content: "\e6bb"; }
+
+.ibase-dot:before { content: "\e6d6"; }
+
+.ibase-undo:before { content: "\e649"; }
+
+.ibase-list:before { content: "\e687"; }
+
+.ibase-eyes:before { content: "\e688"; }
+
+.ibase-red-flag:before { content: "\e68a"; }
